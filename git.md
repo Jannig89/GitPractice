@@ -47,4 +47,17 @@ Permanentes Speichern der Änderungen:
 - git log
 ---
 
+GitHub
+---
+- GitHub ist eine Plattform, auf der Repositories gespeichert werden können.
+- GitHub benötigt einen Account, um die Projekte zuweisen zu können.
+- Auf GitHub können dann Repositories angelegt werden.
+---
+Lokales Repository mit dem GitHub Repository verbinden.
+---
+- git init
+- git add .
+- git commit -m 'Erster Commit'
+- git remote add origin https://github.com/Jannig89/GitPractice.git
+- git push -u origin master
 
